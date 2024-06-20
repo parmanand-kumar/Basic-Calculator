@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", sans-serif;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(135, 148, 148);
+    }
+
+    .calculator {
+      border: 1px solid rgb(96, 96, 96);
+      padding: 18px;
+      border-radius: 9px;
+      background-color: transparent;
+      box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);
+    }
+
+    .display {
+      color: white;
+      width: 300px;
+      border: none;
+      padding: 20px;
+      background-color: transparent;
+      text-align: right;
+      margin: 10px;
+      border-radius: 9px;
+      font-size: 40px;
+      box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);
+      cursor: pointer;
+      display: block;
+    }
+
+    .display::placeholder {
+      color: white;
+    }
+
+    .result {
+      color: white;
+      width: 300px;
+      border: none;
+      padding: 20px;
+      background-color: transparent;
+      text-align: right;
+      margin: 10px;
+      border-radius: 9px;
+      font-size: 40px;
+      box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);
+      cursor: pointer;
+      display: block;
+    }
+
+    .result::placeholder {
+      color: white;
+    }
+
+    button {
+      width: 60px;
+      height: 60px;
+      margin: 14px;
+      color: white;
+      background-color: transparent;
+      font-size: 22px;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: white;
+      color: rgb(135, 148, 148);
+    }
+    button:active {
+      opacity: 0.8;
+    }
+
+
+    .equal-button {
+      background-color: rgba(235, 204, 2, 0.995);
+      color: black;
+    }
+    .equal-button:hover {
+      background-color: black;
+      color: rgba(235, 204, 2, 0.995);
+    }
+    .equal-button:active {
+      opacity: 0.8;
+    }
+
+
+    .operator {
+      color: rgb(28, 0, 186);
+    }
+    .operator:hover {
+      background-color: rgb(28, 0, 186);
+      color: rgb(135, 148, 148);
+    }
+    .operator:active {
+      opacity: 0.8;
+    }
